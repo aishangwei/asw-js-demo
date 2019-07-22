@@ -9,15 +9,15 @@ app.engine('html', mustacheExpress());          // register file extension
 app.set('views', __dirname);
 
 app.get('/',function(req,res){
-    res.status(200).send('Pets Demo Application');
+    res.status(200).send('Js Demo Application');
 });
 
-app.get('/pet',function(req,res){
+app.get('/pict',function(req,res){
     const client = new Client({
         user: 'dockeruser',
         password: 'dockerpass',
         host: 'db',
-        database: 'pets',
+        database: 'js-demo',
         port: 5432,
     })
     console.log("Connecting to DB");

@@ -1,6 +1,6 @@
 {
-  "name": "pets",
-  "version": "1.0.0",
+  "name": "js-demo",
+  "version": "0.1.0",
   "description": "UI for Pets App",
   "main": "src/server.js",
   "author": "Gabriel Schenker",
